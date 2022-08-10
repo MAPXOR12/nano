@@ -2,11 +2,11 @@ require("dotenv").config();
 const { resolve } = require("path");
 
 module.exports = {
-    TOKEN: process.env.TOKEN || "YOUR_TOKEN",  // your bot token
+    TOKEN: process.env.TOKEN || "Nzk4NDI2MzQwNzM0MjcxNDg4.GFfp5J.HlGdAMhwQlvor4EhIbzOVy-NGnbqv87AZhPnOI",  // your bot token
     PREFIX: process.env.PREFIX || "#", //<= default is #  // bot prefix
     EMBED_COLOR: process.env.EMBED_COLOR || "#000001", //<= default is "#000001"
 
-    OWNER_ID: process.env.OWNER_ID || "YOUR_CLIENT_ID", //your owner discord id example: "515490955801919488"
+    OWNER_ID: process.env.OWNER_ID || "798426340734271488", //your owner discord id example: "515490955801919488"
 
     NP_REALTIME: process.env.NP_REALTIME || "BOOLEAN", // "true" = realtime, "false" = not realtime :3 // WARNING: on set to "true" = laggy and bot will ratelimit if you have a lot of servers
     LEAVE_TIMEOUT: parseInt(process.env.LEAVE_TIMEOUT || "120000"), // leave timeout default "120000" = 2 minutes // 1000 = 1 seconds
